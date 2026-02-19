@@ -1,6 +1,6 @@
 # MarkKeeper
 
-## 🚨 CRITICAL SETUP STEP
+
 **Real-time Data Duplication****
 **The Problem:** I implemented both **Optimistic UI updates** (adding the item to the list immediately when the user clicks "Save") and **Real-time Subscriptions** (listening for DB inserts).
 This caused a race condition: The local state would add the item, and milliseconds later, the Realtime subscription would fire an "INSERT" event, adding the same item again, resulting in duplicates.

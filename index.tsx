@@ -1,0 +1,1 @@
+// This file is deprecated. Next.js uses app/page.tsx. Please delete this file.

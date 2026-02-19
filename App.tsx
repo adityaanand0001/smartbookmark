@@ -1,0 +1,1 @@
+// This file is deprecated. Logic moved to app/page.tsx. Please delete this file.
